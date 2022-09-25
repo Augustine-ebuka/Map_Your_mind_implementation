@@ -1,5 +1,5 @@
 
-
+//algorith that sort 3 numbers. assume the numbers are a,b,c
 function sort_algo(a, b, c) {
     const algo =[]
     if ((a > b) && (a > c) && (b > c)) {
@@ -41,18 +41,6 @@ function sort_algo(a, b, c) {
     }
 }
 
+ sort_algo(3, 5, 1)
+//output:[1,3,5]
 
-//  i run first
-//  i run second
-//  i run third
-
-sort_algo(1,1,2)
-function functionA() {
-    console.log('i am A');
-}
-function functionB() {
-    functionA()
-    console.log('i am B') 
-}
-console.log('i run first');
-functionB()
